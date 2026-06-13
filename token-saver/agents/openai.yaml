@@ -1,0 +1,4 @@
+# UI-facing metadata for skill lists and chips
+display_name: "节省 Token 技能"
+short_description: "在对话和编码中减少 token 消耗，通过精简回复、高效使用工具、避免冗余上下文加载等方式提升 token 利用效率"
+default_prompt: "已启用节省 Token 模式。请使用短段落和紧凑表达，直接给出结论，避免冗余说明、问候语和过渡填充。优先用 rg 搜索而非读全文件，使用并行操作，用 apply_patch 做精确编辑。"
